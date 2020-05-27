@@ -19,7 +19,7 @@ from kivy.clock import Clock
 # Imports the DQN object ai.py
 from ai import Dqn
 
-# Adding this line if we don't want the right click to put a red point
+# right-click red point
 Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
 
 # Introducing last_x and last_y, used to keep the last point in memory when we draw the sand on the map
